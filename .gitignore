@@ -69,3 +69,4 @@ markov_scores
 
 # Heroku does not like autoenv
 .env
+.idea
