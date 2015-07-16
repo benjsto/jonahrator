@@ -70,3 +70,9 @@ markov_scores
 # Heroku does not like autoenv
 .env
 .idea
+autoload
+dbindexer
+django
+djangoappengine
+djangotoolbox
+nltk
