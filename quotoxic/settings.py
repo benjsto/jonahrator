@@ -7,7 +7,6 @@ import nltk
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'ron_quixote'
 
-# DEBUG = DEBUG
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 ALLOWED_HOSTS = []
