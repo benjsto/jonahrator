@@ -20,4 +20,4 @@ function QuoteCtrl($http, $scope) {
   self.getQuote();
 }
 
-angular.module('Jonahrator').controller('QuoteCtrl', ['$http', '$scope', QuoteCtrl]);
+angular.module('RonQuixote').controller('QuoteCtrl', ['$http', '$scope', QuoteCtrl]);

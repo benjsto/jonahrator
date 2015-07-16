@@ -1,0 +1,15 @@
+.intro {
+    background: black;
+}
+
+.row:before, .row:after {
+    content: none;
+}
+
+.container:before, .container:after {
+    content: none;
+}
+
+.row img {
+    width: 75px;
+}

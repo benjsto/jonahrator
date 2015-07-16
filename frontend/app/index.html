@@ -1,21 +1,15 @@
 <!DOCTYPE html>
-<html ng-app="Jonahrator" lang="en">
+<html ng-app="RonQuixote" lang="en">
 
   <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The Jonahrator">
-    <meta name="author" content="Jeff Revesz & Polina Giralt">
+    <meta name="description" content="Ron Quixote">
+    <meta name="author" content="Benjamin Stockwell">
 
-    <title>startup ceo</title>
-
-    <!-- Custom CSS -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/static/styles/home.css">
+    <title>Ron Quixote</title>
 
     <!-- Bootstrap Core CSS -->
     <link
@@ -42,6 +36,12 @@
       rel="stylesheet"
       type="text/css"
       href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
+
+      <!-- Custom CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/static/styles/home.css">
 
     <!-- All site JS -->
     <script
@@ -76,7 +76,7 @@
           <a
             class="navbar-brand page-scroll"
             href="#page-top">
-            Jonahrator
+            Ron Quixote
           </a>
         </div>
 
@@ -109,6 +109,10 @@
       ng-controller="QuoteCtrl as quote">
       <div class="intro-body">
         <div class="container" style="display:table; padding-left:0px; padding-right:0px;">
+          <div class="row" style="display:table-row;">
+            <img src="static/public/images/don_quixote.png" />
+            <img src="static/public/images/ron_swanson.png" />
+          </div>
           <div class="row" style="display:table-row; height: 275px;">
             <div class="col-xs-8 col-md-offset-2" style="display:table-cell; float:none; vertical-align: bottom;">
               <div ng-show="loading" class="loading"><img src="static/public/images/ajaxSpinner.gif" height=50 width=50 alt="LOADING..." /></div>
@@ -136,9 +140,10 @@
     <section id="about" class="container content-section text-center">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <h2>About Jonahrator</h2>
-          <p>Jonahrator is a Markov Chain text generator seeded with quotes from our favorite <a href="https://twitter.com/peretti" target="none">startup ceo</a>.</p>
-          <p>Built with love and Whuffies by <a href="https://github.com/punkrockpolly" target="none">Polina Giralt</a> and <a href="https://github.com/galarant" target="none">Jeff Revesz.</a></p>
+          <h2>About Ron Quixote</h2>
+          <p>Ron Quixote is a random quote generator seeded with Don Quixote and Ron Swanson quotes.</p>
+          <p>Built by <a href="https://github.com/benjsto">Benjamin Stockwell.</a></p>
+          <p>Based on the Jonahrator by <a href="https://github.com/punkrockpolly" target="none">Polina Giralt</a> and <a href="https://github.com/galarant" target="none">Jeff Revesz.</a></p>
         </div>
       </div>
       <div class="row" style="height: 350px"></div>
@@ -149,7 +154,7 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <h2>Contact</h2>
-          <p>If you think Jonahrator is kinda neat and you like to build neat things of your own, maybe you should come build them at BuzzFeed!</p>
+          <p>If you think Ron Quixote is kinda neat and you like to build neat things of your own, maybe you should come build them at BuzzFeed!</p>
           <p><a href="http://buzzfeed.com/jobs">Jobs at BuzzFeed</a></p>
         </div>
       </div>
@@ -164,7 +169,7 @@
           <ul class="list-inline banner-social-buttons">
             <li>
               <a 
-                href="https://twitter.com/jonahrator"
+                href="https://twitter.com/buzzfeedmsp"
                 class="btn btn-default btn-lg">
                 <i class="fa fa-twitter fa-fw"></i>
                 <span class="network-name">Twitter</span>
@@ -181,7 +186,7 @@
             </li>
             <li>
               <a 
-                href="https://github.com/galarant/jonahnator"
+                href="https://github.com/benjsto/jonahnator"
                 class="btn btn-default btn-lg">
                 <i class="fa fa-github fa-fw"></i>
                 <span class="network-name">GitHub</span>

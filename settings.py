@@ -1,1 +1,1 @@
-from jonahrator.settings import *
+from quotoxic.settings import *
