@@ -41,6 +41,9 @@ class PhraseGenerator(object):
         be either a text blob, or a Class that responds to functions
         "words" and "sents", with optional args and kwargs as passed in to this initializer
         '''
+        # nltk.data.path = ['nltk_data']
+        # nltk.data.path.append('nltk_data')
+
         if isinstance(corpa, basestring):
             words = nltk.word_tokenize(corpa)
             sents = nltk.sent_tokenize(corpa)

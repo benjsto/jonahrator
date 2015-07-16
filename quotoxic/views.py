@@ -5,7 +5,7 @@ from django.views.generic import (
     TemplateView
 )
 
-from language.generator import random_markov_phrase as random_phrase
+from language.generator import random_nltk_phrase as random_phrase
 
 
 class JSONResponseMixin(object):

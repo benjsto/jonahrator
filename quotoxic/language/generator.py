@@ -35,7 +35,10 @@ def random_markov_phrase():
 
 def random_nltk_phrase():
     txt = load_quotes()
-    p = PhraseGenerator(txt)
+    try:
+        p = PhraseGenerator(txt)
+    except BaseException as exc:
+        print exc
     # quote = random.choice(txt.split(['\n', ' ']))
     # seed = quote.split(' ')[0]
     seed = random.choice(txt.split())

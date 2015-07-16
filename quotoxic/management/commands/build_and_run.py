@@ -8,13 +8,13 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         # save current working dir
-        base_path = os.getcwdu()
-        frontend_path = base_path + '/frontend'
-
-        os.chdir(frontend_path)
-        os.system('npm run build')
-        os.chdir(frontend_path + '/..')
-        os.system('gunicorn jonahnator.wsgi --log-file -')
+        # base_path = os.getcwdu()
+        # frontend_path = base_path + '/frontend'
+        #
+        # os.chdir(frontend_path)
+        # os.system('npm run build')
+        # os.chdir(frontend_path + '/..')
+        os.system('gunicorn quotoxic.wsgi --log-file -')
 
         # restore current working dir
-        os.chdir(base_path)
+        # os.chdir(base_path)
