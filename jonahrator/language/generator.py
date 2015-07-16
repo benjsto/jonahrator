@@ -2,7 +2,7 @@
 import os
 import random
 from markov import MarkovChain
-from silly_nltk import PhraseGenerator
+# from silly_nltk import PhraseGenerator
 
 
 PATH = os.path.dirname(os.path.realpath(__file__))
@@ -32,11 +32,11 @@ def random_markov_phrase():
         generated_sentence += '.'
     return generated_sentence
 
-
-def random_nltk_phrase():
-    txt = load_quotes()
-    p = PhraseGenerator(txt)
-    # quote = random.choice(txt.split(['\n', ' ']))
-    # seed = quote.split(' ')[0]
-    seed = random.choice(txt.split())
-    return p(seed)
+#
+# def random_nltk_phrase():
+#     txt = load_quotes()
+#     p = PhraseGenerator(txt)
+#     # quote = random.choice(txt.split(['\n', ' ']))
+#     # seed = quote.split(' ')[0]
+#     seed = random.choice(txt.split())
+#     return p(seed)

@@ -1,3 +1,5 @@
+from djangoappengine.settings_base import *
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -10,16 +12,23 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = (
     'django.contrib.staticfiles',
-    'jonahnator',
+    'djangotoolbox',
+    # 'autoload',
+    # 'dbindexer',
+    'nltk',
+    'jonahrator',
+
+    # djangoappengine should come last, so it can override a few manage.py commands
+    'djangoappengine',
 )
 
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
 )
 
-ROOT_URLCONF = 'jonahnator.urls'
+ROOT_URLCONF = 'jonahrator.urls'
 
-WSGI_APPLICATION = 'jonahnator.wsgi.application'
+WSGI_APPLICATION = 'jonahrator.wsgi.application'
 
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'

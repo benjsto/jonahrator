@@ -7,4 +7,4 @@ class Command(BaseCommand):
     help = 'Custom management to build frontend'
 
     def handle(self, *args, **options):
-        os.system('gunicorn jonahnator.wsgi --log-file -')
+        os.system('gunicorn jonahrator.wsgi --log-file -')
