@@ -1,0 +1,31 @@
+.intro {
+    background: black;
+}
+
+.row:before, .row:after {
+    content: none;
+}
+
+.container:before, .container:after {
+    content: none;
+}
+
+.row img {
+    width: 75px;
+    margin: 10px;
+}
+
+.small {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+a.bf_label {
+    color: red;
+}
+
+.plus_label {
+    font-size: 48px;
+    margin: 10px;
+    color: gray;
+}

@@ -1,0 +1,1 @@
+from quotoxic.settings import *

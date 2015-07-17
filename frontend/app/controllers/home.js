@@ -27,4 +27,4 @@ function HomeCtrl($http) {
 
 }
 
-angular.module('Jonahrator').controller('HomeCtrl', ['$http', HomeCtrl]);
+angular.module('RonQuixote').controller('HomeCtrl', ['$http', HomeCtrl]);

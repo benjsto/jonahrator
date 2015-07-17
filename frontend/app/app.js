@@ -1,2 +1,2 @@
 /*global angular */
-angular.module('Jonahrator', ['ngRoute']);
+angular.module('RonQuixote', ['ngRoute']);
