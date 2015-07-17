@@ -1,17 +1,17 @@
 {
-  "name": "jonahrator",
+  "name": "ronquixote",
   "version": "0.0.1",
-  "description": "Jonah Peretti Quote Generator",
+  "description": "Ron Quixote",
   "repository": {
     "type": "git",
-    "url": "git://github.com/galarant/jonahrator.git"
+    "url": "git://github.com/benjsto/ronquixote.git"
   },
-  "author": "Jeff Revesz & Polina Giralt",
+  "author": "Benjamin Stockwell",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/galarant/jonahnator/issues"
+    "url": "https://github.com/benjsto/ronquixote/issues"
   },
-  "homepage": "https://github.com/galarant/jonahnator",
+  "homepage": "https://github.com/benjsto/ronquixote",
   "devDependencies": {},
   "scripts": {
     "clean": "./node_modules/.bin/rimraf dist/",
